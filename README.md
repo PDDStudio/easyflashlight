@@ -45,7 +45,7 @@ On Android M the user can deny the camera permission, which ends up with that yo
 ```
 
 ###Interacting with the Flashlight
-Because this library is called *EasyFlashlight* and a Flashlight can't do more than either light or no light, there are only two methods in this API.
+Because this library is called *EasyFlashlight* and a Flashlight can't do more than either light on or light off, there are only two methods in this API.
 
 To turn on the Flashlight:
 
@@ -56,7 +56,7 @@ EasyFlashlight.getInstance().turnOn();
 To turn off the Flashlight:
 
 ```java
-EasyFlashlight.getInstance().turnOn();
+EasyFlashlight.getInstance().turnOff();
 ```
 
 ###Author
